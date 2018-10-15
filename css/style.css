@@ -1,0 +1,264 @@
+.img-responsive{
+    height: 100%;
+    width: 100%;
+}
+
+.social-icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.76);
+
+}
+.sociel ul li a {
+    text-align: center;
+    vertical-align: top;
+    overflow: hidden;
+    margin-right: 10px;
+
+}
+.sociel-one:hover{
+    box-shadow: 2px 1px 4px 1px rgba(255, 255, 255, 0.86);
+    background-color:#00aef0 ;
+}
+
+.sociel-two:hover{
+    box-shadow: 2px 1px 4px 1px rgba(255, 255, 255, 0.86);
+    background-color:#0b1033 ;
+}
+.sociel-three:hover{
+    box-shadow: 2px 1px 4px 1px rgba(255, 255, 255, 0.86);
+    background-color:#fe3d2e ;
+}
+.sociel-four:hover{
+    box-shadow: 2px 1px 4px 1px rgba(255, 255, 255, 0.86);
+    background-color:#AF0605 ;
+}
+
+.nav-bg{
+    background-color: #C4CAFC;
+
+}
+   /*==================about-section-css-start====================*/
+
+.about-welcome-support {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 2px 0 10px;
+    left: 0;
+    padding: 35px 97px;
+    position: absolute;
+    top: 60px;
+    transition: all 0.3s ease-in-out;
+}
+.about-welcome-estimate {
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    box-shadow: 2px 0 10px;
+    left: 12%;
+    padding: 35px 83px;
+    position: absolute;
+    top: 39%;
+    transition: all 0.3s ease-in-out;
+}
+.about-welcome-price {
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    box-shadow: 2px 0 10px;
+    bottom: 7.5%;
+    left: 24%;
+    padding: 35px 109px;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+}
+.about-welcome-price:hover{
+    background: #0b1033;
+    color: #ffffff;
+}
+.about-welcome-estimate:hover{
+    background: rgba(28, 189, 233, 0.9);
+    color: #ffffff;
+}
+.about-welcome-support:hover{
+    background: #00b386;
+    color: #ffffff;
+}
+.about-welcome-price:hover .about-pric,
+.about-welcome-estimate:hover .about-estmt,
+.about-welcome-support:hover .about-support{
+    color: #ffffff;
+}
+.about-welcome-support .about-support,
+.about-welcome-estimate .about-estmt,
+.about-welcome-price .about-pric {
+    color: #1e1e1e;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.about-welcome-support .about-icon,
+.about-welcome-estimate .about-icon,
+.about-welcome-price .about-icon {
+    font-size: 36px;
+    letter-spacing: 0.6px;
+    line-height: 60px;
+}
+
+/*================about-section-css-end============*/
+
+.img-effect-main {
+    position: relative;
+    width: 100%;
+}
+
+.image-effect {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-effect {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #4a97c2;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.img-effect-main:hover .overlay-effect {
+    width: 100%;
+    left: 0;
+}
+
+.text-effect {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.card-hover{
+    transform: scale(1);
+}
+.card-hover:hover{
+    transform: scale(1);
+    background-color: lightblue;
+    color: grey;
+    transition: 0.3s;
+}
+
+.deck-bg{
+    background-color: #FAFAFA;
+
+}
+
+/*============service hoverio css start============*/
+.card-effet-one {
+    position: relative;
+    width: 50%;
+}
+
+.image-effect-one {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-effect-one {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:  #4a97c2;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .3s ease;
+}
+
+.card-effet-one:hover .overlay-effect-one {
+    width: 100%;
+}
+
+.text-effect-one {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.price-hover-effect:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price-text-hover-effect:hover{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.comments-img-div{
+    margin-left: 43%;
+    margin-right: 42%;
+
+}
+
+.cmment-bg{
+    background-color: #D8C3C7;
+
+}
+
+/*=============comments section css start================*/
+
+
+
+.bg-image {
+    /* The image used */
+    background-color: #0b385d;
+
+    /* Add the blur effect */
+    filter: blur(15px);
+    -webkit-filter: blur(8px);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+/*=============comments section css end================*/
+
+.foot-text-effect {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
